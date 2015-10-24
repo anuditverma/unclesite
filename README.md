@@ -1,5 +1,5 @@
-# Travicine
-One pill to stop all your pills
+# StayUncle
+Hotels on demand. Pay only for your use.
 
 Version
 
