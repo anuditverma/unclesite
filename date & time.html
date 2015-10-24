@@ -13,6 +13,7 @@
           }
           select{
     font-size:40px;
+            
           }
            #logo{
           width:100px;
@@ -28,16 +29,21 @@
   <body>
       <div id="hue" class="col-md-10 text-center col-md-offset-1">
           <img src="static/img/logo.png" class="img-responsive center-block" id="logo">
-          <h3 class="text-center">StayUncle</h3>
-      <h2>So you are visiting <em>{{post}}</em>. We'd like to know more about your visit to help you better.</h2>
-    <h2>When are you visiting?</h2><input type="date" name="bday"> <h2>How many of you are visiting?</h2> 
-          <h1 style="height: 100px;"><select id="guests" name="guests">
+          <h4 class="text-center">StayUncle</h4>
+      <h3>So you are visiting <em>{{post}}</em>. We'd like to know more about your visit to help you better.</h3>
+    <h3>When are you visiting?</h3><input type="date" name="bday"> <h3>How many of you are visiting?</h3> 
+          <select id="guests" name="guests">
               <option value="1">1 Guest</option>
               <option value="2">2 Guests</option>
               <option value="3">3 Guests</option>
               <option value="4">4 Guests</option>
               <option value="5">5 Guests</option>
-              </select></h1>
+              </select>
+          <h3>When do you want to stay?</h3> 
+         <select id="guests" name="guests">
+              <option value="1">10 am to 7 pm</option>
+              <option value="2">9pm to 8am</option>
+              </select><br><br>
          <a href="arrdep"><button class="btn btn-lg">Continue</button></a>
        
 </div>
@@ -55,9 +61,9 @@
       
     // setInterval(image(), 9000);
        
-        setInterval($("html").css("background-image", "url('/static/img/gurgaon.jpg')"),9000);
-         setInterval($("html").css("background-image", "url('/static/img/bangalore.jpg')"),3000);
-        setInterval($("html").css("background-image", "url('/static/img/delhi.jpg')"),12000);
+    //    setInterval($("html").css("background-image", "url('/static/img/gurgaon.jpg')"),9000);
+      //   setInterval($("html").css("background-image", "url('/static/img/bangalore.jpg')"),3000);
+      //  setInterval($("html").css("background-image", "url('/static/img/delhi.jpg')"),12000);
     });
     </script>
   </body>
