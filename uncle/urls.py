@@ -20,4 +20,6 @@ import cities.views
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', cities.views.index, name='index'),
+    url(r'^datetime$', cities.views.datetime, name='datetime'),
+    url(r'^arrdep$', cities.views.arrdep, name='arrdep'),
 ]
