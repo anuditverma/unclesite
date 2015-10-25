@@ -31,9 +31,9 @@
 <div class="container">
 
       <form class="form-inline" action="datetime" id="selectCity" method="post">
-{% csrf_token %}
+
           <div class="form-group"><div class="input-group">
-<select id="cities" name="cities" onchange="$('#selectCity').submit();">
+<select id="cities" name="cities" onchange="window.location = 'date & time.html';">
     <option value="city">City</option>
     <option value="Delhi" >New Delhi</option>
     <option value="Gurgaon">Gurgaon</option>

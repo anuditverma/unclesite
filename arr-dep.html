@@ -15,27 +15,32 @@
   <body>
       <div class="col-md-10 text-center col-md-offset-1">
           <h3 class="text-center">StayUncle</h3>
-          <h3>How are you arriving to Bangalore?</h3> 
-          <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-plane"></i> &nbsp;Airport</button> &nbsp;
-          <button type="button" class="btn btn-lg"><i class="fa fa-train"></i> &nbsp; &nbsp;Train</button> &nbsp;
-          <button type="button" class="btn btn-lg"><i class="fa fa-bus"></i> &nbsp;Bus</button> &nbsp;
-          <h3>Where are you going in Bangalore?</h3> 
+          <h3>How are you arriving to Delhi?</h3> 
+          
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off"><i class="fa fa-plane"></i> &nbsp;Airport</button> &nbsp;
+          <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-train"></i> &nbsp; &nbsp;Train</button> &nbsp;
+          <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-bus"></i> &nbsp;Bus</button> &nbsp;
+          <h3>Where are you going in Delhi?</h3> 
           <div class="input-group">
           <div class="input-group-addon"><i class="fa fa-search"></i></div>
           <input type="search" class="form-control" id="search" placeholder="Event location" onchange="maps()"> 
           <div class="input-group-addon"><i class="fa fa-arrow-right"></i></div>          
           </div>
           <h5>This information will help us suggest hotels nearby.</h5>
-    <div>
-        <iframe width="600" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=Bangalore&key=AIzaSyCTLsljv39XkeVuR0PVMUMVQgsM-YQkMH4" allowfullscreen></iframe></div>
+    <div class="col-md-5">
+        <iframe width="600" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=New+Delhi&key=AIzaSyCTLsljv39XkeVuR0PVMUMVQgsM-YQkMH4" allowfullscreen></iframe></div>
+          <div><a href="hotels.html"> <button type="button" class="btn btn-lg"><i class="fa fa-bed"></i> &nbsp; &nbsp;Choose your hotel</button></a> &nbsp;</div>
         <!--  <iframe width="600" height="450" frameborder="0" style="border:0"
 src="https://www.google.com/maps/embed/v1/view?zoom=10&center=12.9716,77.5946&key=AIzaSyCTLsljv39XkeVuR0PVMUMVQgsM-YQkMH4" allowfullscreen></iframe> -->
          
     </div>
       <script>
-      
+      function maps(){
+        
+      }
       
       </script>
     <script src="static/js/bootstrap.min.js"></script>
+      <script src="static/js/jquery.min.js"></script>
   </body>
   </html>

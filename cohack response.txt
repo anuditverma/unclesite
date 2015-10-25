@@ -1,0 +1,38 @@
+Team Illuminati
+Anudit Verma & Kamalaveln
+
+Redesign the UX for stayuncle.com
+
+Our initial reactions to the problem statement
+- Why only weather?
+- Is the company expecting only UI changes?
+- Can we hack a better user flow?
+
+Our take on the problem
+- The target customer base is people on official trips
+- UX is not only about the UI
+- UX is how the company's value proposition is communicated to the user
+- We wanted to explain the product in a better way than the original site
+- We wanted to add little more features and give the user a full fledged user experience
+
+What we hoped to achieve
+- Smoother user flow
+- Better understand of the product
+
+What are the challenges we faced?
+- Too much creative freedom forced us to spend a lot of time on thinking
+- Internal compulsiveness to implement geolocation & geocoding & actually implementing it
+
+What have we done?
+- Recreated a static workflow for the site with additional features
+
+What is left?
+- Implement backend
+- Improve UI design
+
+Overall experience
+- Made a lot of mistakes
+- Learnt what not to do
+- Had a fun time
+- Was a race against time
+
