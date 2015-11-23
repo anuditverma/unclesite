@@ -1,5 +1,3 @@
-# Travicine
-One pill to stop all your pills
 
 Version
 
